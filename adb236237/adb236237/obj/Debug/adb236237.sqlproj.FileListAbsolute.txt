@@ -1,0 +1,10 @@
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\bin\Debug\adb236237.dacpac
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\adb236237.sqlproj.AssemblyReference.cache
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\Model.xml
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\refactor.xml
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\postdeploy.sql
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\predeploy.sql
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\adb236237.dll
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\obj\Debug\adb236237.pdb
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\bin\Debug\adb236237.dll
+C:\Users\Meny8\OneDrive\Desktop\zaawansowane_bazy_danych_236237\adb236237\adb236237\bin\Debug\adb236237.pdb
