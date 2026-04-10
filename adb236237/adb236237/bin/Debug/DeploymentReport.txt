@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [schemat236237].[ufnGetCustomerInformation] (Function)
+
+** Supporting actions
+
+The compatibility level of the target schema 170 is not supported, which may result in undefined behavior. Please upgrade to a later version which supports this compatibility level.
+
