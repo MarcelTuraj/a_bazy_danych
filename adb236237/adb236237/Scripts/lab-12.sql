@@ -33,51 +33,44 @@ GO
 -- Zadanie 2
 -- =============================================
 
-CREATE SCHEMA SalesLT1;
-GO
+
 
 GRANT CONTROL
-ON SCHEMA::SalesLT1
+ON SCHEMA::SalesLT
 TO [236237];
 GO
 
 
-FROM sys.database_permissions
-WHERE grantee_principal_id =
-(
-    SELECT principal_id
-    FROM sys.database_principals
-    WHERE name = '236237'
-);
+-- =============================================
 -- Zadanie 3
+-- =============================================
 
--- Treœæ:
-
--- odbierz pe³n¹ kontrolê nad SalesLT
-
--- Odebranie kontroli
 REVOKE CONTROL
 ON SCHEMA::SalesLT
 FROM [236237];
 GO
--- Tabela Product tylko odczyt
+
 GRANT SELECT
 ON SalesLT.Product
 TO [236237];
 GO
 
--- Dodatkowo warto odebraæ inne prawa:
-
-DENY INSERT
-ON SalesLT.Product
-TO [236237];
-
-DENY UPDATE
-ON SalesLT.Product
-TO [236237];
-
-DENY DELETE
-ON SalesLT.Product
+GRANT SELECT
+ON schemat236237.Customer
 TO [236237];
 GO
 
+GRANT UPDATE
+ON schemat236237.Customer
+TO [236237];
+GO
+
+SELECT
+    p.name,
+    dp.permission_name,
+    dp.state_desc
+FROM sys.database_permissions dp
+JOIN sys.database_principals p
+    ON dp.grantee_principal_id = p.principal_id
+WHERE p.name = '236237';
+GO
